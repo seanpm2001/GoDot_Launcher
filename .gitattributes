@@ -45,6 +45,23 @@
 *.pyw linguist-detectable=true
 *.pyw linguist-documentation=false
 *.pyw linguist-language=Python
+# QML source file
+*.qml linguist-detectable=true
+*.qml linguist-documentation=false
+*.qml linguist-language=QML
+# Tcl source file
+*.tcl linguist-detectable=true
+*.tcl linguist-documentation=false
+*.tcl linguist-language=Tcl
+# GDScript source file
+# Coming soon
+*.gd linguist-detectable=true
+*.gd linguist-documentation=false
+*.gd linguist-language=GDScript
+# CSV source file
+*.csv linguist-detectable=true
+*.csv linguist-documentation=false
+*.csv linguist-language=CSV
 # Less stylesheet file
 *.less linguist-detectable=true
 *.less linguist-documentation=false
@@ -98,8 +115,7 @@
 *.makefile linguist-documentation=false
 *.makefile linguist-language=Makefile
 # SVG (Scalable Vector Graphics) image file
-# Do not include, as it would become the 100% dominant language and would hide all the other languages as "other"
-*.svg linguist-detectable=false
+*.svg linguist-detectable=true
 *.svg linguist-documentation=false
 *.svg linguist-language=SVG
 # Git Configuration files
@@ -179,7 +195,7 @@
 
 # File info
 # File type: gitattributes file (*.gitattributes)
-# File version: 5 (2022, Friday, December 9th at 5:22 pm PST)
-# Line count (including blank lines and compiler line): 186
+# File version: 6 (2022, Friday, December 9th at 6:25 pm PST)
+# Line count (including blank lines and compiler line): 202
 
 # End of script
